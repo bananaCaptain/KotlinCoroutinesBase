@@ -59,6 +59,9 @@ dependencies {
     implementation deps.activity.activity_ktx
 
     implementation deps.kotlin.stdlib
+    implementation deps.coroutines.android
+
+    implementation deps.utilcodex
 
     testImplementation deps.junit
     testImplementation deps.arch_core.testing
